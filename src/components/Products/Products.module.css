@@ -1,0 +1,9 @@
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    margin-top: 20px;
+    grid-gap: 30px;
+}

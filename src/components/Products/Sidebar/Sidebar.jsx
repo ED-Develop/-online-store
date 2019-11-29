@@ -18,9 +18,9 @@ const Sidebar = (props) => {
             </div>
             <div className={style.description}>Categories:</div>
             <ul className={style.categories}>
-                <li><NavLink activeClassName={style.active} exact={true} to='/products'>All</NavLink></li>
-                <li><NavLink activeClassName={style.active} to='/products/phone'>Phones</NavLink></li>
-                <li><NavLink activeClassName={style.active} to='/products/laptop'>Laptops</NavLink></li>
+                <li><NavLink activeClassName={style.active} exact={true} to='/'>All</NavLink></li>
+                <li><NavLink activeClassName={style.active} to='/phone'>Phones</NavLink></li>
+                <li><NavLink activeClassName={style.active} to='/laptop'>Laptops</NavLink></li>
             </ul>
         </aside>
     )
